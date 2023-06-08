@@ -17,6 +17,7 @@ run the example project
 - apiVersion: api versin form APi
 - trackingURL: URL domain for api version < 2.0.0
 - backendURL: URL tracking version >= 2.0.0
+
         SVTrackingManager.shareInstance.configData(driverName: "thanh13", accessToken: "f0ue9Ce6swJXku2IH8h_Sxne-0GHyGOrAvuDIVL3JctF-7nJLYw2qmbBhdGmwnD3wD32VO5-4pi8KwXgIVsKA71mJWOEqd1d4P4IhqbsNJaFR_ZKEOPGhF-puEEnFD7TRguTFPO84tp5Pd3b59DSRDeUa-al5zls1nXUZWqEn7Nlpju2Enmwnto7gDxApZloNw8vxTyX38IpUmpUy3FKVby-0ykEHQy9ckROOn_P-4UdhyiPgey7ttCsHRHqHV3-qpykPR0sYxhGByZMv7ZuWeOiNSTkpWcy4bfvLaSeIfa_9Va6AIh4uedqxdTQbG2Xzo4agQhg1ykuEWVKhWzHwOi3znZb-OUwM8EFSvnIq8sDhBITj88Pznu0I7akownlUqELKIKaWDzuAcLFvlnZa276Af7lXI7r_76eAMQAzb23Ei07wc1LjaRmIJpixGdwXzDbxKyCpHGwW6dMSwcyUfndatY", trackingURL: "https://testing.skedulomatic.com/api/app-base/vdms-tracking/push", backendURL: "https://testing.skedulomatic.com", apiVersion: "2.7.2", jobStatus: 2)
         SVTrackingManager.shareInstance.setTrackingFrequency(miliseconds: 10000)
         SVTrackingManager.shareInstance.setUseMotionSensor(enable: true)
