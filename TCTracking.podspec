@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TCTracking'
   s.version          = '0.1.0'
-  s.summary          = 'techcraft tracking library use for sending gps data to vdms tracking service.'
+  s.summary          = 'techcraft tracking library'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'techcraft tracking library use for sending gps data to vdms tracking service.'
 
-  s.homepage         = 'https://github.com/PhuTruong/TCTracking'
+  s.homepage         = 'https://github.com/phutttc/TCTracking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'PhuTruong' => 'truongthienphu@vietbando.vn' }
-  s.source           = { :git => 'https://github.com/PhuTruong/TCTracking.git', :tag => s.version.to_s }
+  s.author           = { 'PhuTruong' => 'phu.truong@techcraft.vn' }
+  s.source           = { :git => 'https://github.com/phutttc/TCTracking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
