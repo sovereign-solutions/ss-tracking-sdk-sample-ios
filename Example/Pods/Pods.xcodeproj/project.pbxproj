@@ -188,7 +188,7 @@
 		294222E47CC161D4B2D11DA081B6043E /* ObjectMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.debug.xcconfig; sourceTree = "<group>"; };
 		2A785CBF3F26C7FBB48EB979F921D9E7 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		2AB6E87A1B03BA6AD796F14712D7BEE8 /* Pods-TCTracking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCTracking_Example-umbrella.h"; sourceTree = "<group>"; };
-		2B4A67EE3EAAB06F4A93BDFC4DEB7C67 /* Pods-TCTracking_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TCTracking_Example"; path = Pods_TCTracking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4A67EE3EAAB06F4A93BDFC4DEB7C67 /* Pods_TCTracking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCTracking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD389409B9B5C937AB2C6076A070504 /* Pods-TCTracking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCTracking_Example.modulemap"; sourceTree = "<group>"; };
 		2D15A0955CF5710537C278785A045883 /* CodableTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableTransform.swift; path = Sources/CodableTransform.swift; sourceTree = "<group>"; };
 		2D68896DBD8D968F0CC6F423B53A0D3E /* AlamofireObjectMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireObjectMapper.swift; path = AlamofireObjectMapper/AlamofireObjectMapper.swift; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 		DC2DC4C149B65C596769EDF7B2D6D960 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		E0CAB345E77074DCCA530AC3EAC94453 /* Pods-TCTracking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCTracking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41DB9A95FED40A593A1025BC7836EA6 /* Pods-TCTracking_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TCTracking_Tests"; path = Pods_TCTracking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41DB9A95FED40A593A1025BC7836EA6 /* Pods_TCTracking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCTracking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58EBB7A7A5AA1408A182B650A1BD82B /* AlamofireObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireObjectMapper-umbrella.h"; sourceTree = "<group>"; };
 		E5D4D6564D5FEC156122B1DAB380F23C /* DictionaryTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryTransform.swift; path = Sources/DictionaryTransform.swift; sourceTree = "<group>"; };
 		E9271D2968AD88A11E0469337F5822C5 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
@@ -474,8 +474,8 @@
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
 				86822384CD379FCE373C2F755839B8DE /* AlamofireObjectMapper.framework */,
 				B9084FE779702931E8DF1D00A2D725FB /* ObjectMapper.framework */,
-				2B4A67EE3EAAB06F4A93BDFC4DEB7C67 /* Pods-TCTracking_Example */,
-				E41DB9A95FED40A593A1025BC7836EA6 /* Pods-TCTracking_Tests */,
+				2B4A67EE3EAAB06F4A93BDFC4DEB7C67 /* Pods_TCTracking_Example.framework */,
+				E41DB9A95FED40A593A1025BC7836EA6 /* Pods_TCTracking_Tests.framework */,
 				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
 				3A65C19B373ECD0F5DF6D2B95CDC3B2F /* TCTracking.framework */,
 			);
@@ -752,7 +752,7 @@
 			);
 			name = "Pods-TCTracking_Tests";
 			productName = Pods_TCTracking_Tests;
-			productReference = E41DB9A95FED40A593A1025BC7836EA6 /* Pods-TCTracking_Tests */;
+			productReference = E41DB9A95FED40A593A1025BC7836EA6 /* Pods_TCTracking_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
@@ -811,7 +811,7 @@
 			);
 			name = "Pods-TCTracking_Example";
 			productName = Pods_TCTracking_Example;
-			productReference = 2B4A67EE3EAAB06F4A93BDFC4DEB7C67 /* Pods-TCTracking_Example */;
+			productReference = 2B4A67EE3EAAB06F4A93BDFC4DEB7C67 /* Pods_TCTracking_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1129,6 +1129,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TCTracking_Tests/Pods-TCTracking_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1162,6 +1163,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TCTracking_Example/Pods-TCTracking_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1472,6 +1474,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TCTracking_Example/Pods-TCTracking_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1602,6 +1605,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TCTracking_Tests/Pods-TCTracking_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
