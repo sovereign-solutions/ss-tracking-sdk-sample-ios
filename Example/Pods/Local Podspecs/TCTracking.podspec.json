@@ -1,7 +1,7 @@
 {
   "name": "TCTracking",
   "version": "0.1.0",
-  "summary": "A short description of TCTracking.",
+  "summary": "techcraft tracking library use for sending gps data to vdms tracking service.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/PhuTruong/TCTracking",
   "license": {
@@ -18,5 +18,19 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "TCTracking/Classes/**/*"
+  "source_files": "TCTracking/Classes/**/*",
+  "dependencies": {
+    "AlamofireObjectMapper": [
+
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "Alamofire": [
+
+    ],
+    "ObjectMapper": [
+
+    ]
+  }
 }

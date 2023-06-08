@@ -4,7 +4,9 @@ platform :ios, '10.0'
 
 target 'TCTracking_Example' do
   pod 'TCTracking', :path => '../'
-
+  pod 'Alamofire', '4.8.0'
+  pod 'AlamofireObjectMapper'
+  pod 'SwiftyJSON'
   target 'TCTracking_Tests' do
     inherit! :search_paths
 
