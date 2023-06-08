@@ -39,7 +39,7 @@ pod 'TCTracking'
 
 ## Author
 
-PhuTruong, truongthienphu@vietbando.vn
+PhuTruong, phu.truong@techcraft.vn
 
 ## License
 
