@@ -1,40 +1,16 @@
 PODS:
-  - Alamofire (4.8.0)
-  - AlamofireObjectMapper (5.2.1):
-    - Alamofire (~> 4.7)
-    - ObjectMapper (~> 3.4)
-  - ObjectMapper (3.5.3)
-  - SwiftyJSON (5.0.1)
-  - TCTracking (0.1.0):
-    - Alamofire
-    - AlamofireObjectMapper
-    - ObjectMapper
-    - SwiftyJSON
+  - TCTracking (0.1.0)
 
 DEPENDENCIES:
-  - Alamofire (= 4.8.0)
-  - AlamofireObjectMapper
-  - SwiftyJSON
   - TCTracking (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - Alamofire
-    - AlamofireObjectMapper
-    - ObjectMapper
-    - SwiftyJSON
 
 EXTERNAL SOURCES:
   TCTracking:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
-  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
-  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
-  TCTracking: 5cde986678281d4fe4593619dc4f55fac0985d48
+  TCTracking: 10732c88021b3bea0583a581ce8715a4595219b9
 
-PODFILE CHECKSUM: 1b1a43ca30eb3841d71ec3eba86746c20a45bb41
+PODFILE CHECKSUM: dcb896d950ba7aa06e097198cd7d8c471bddc061
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1

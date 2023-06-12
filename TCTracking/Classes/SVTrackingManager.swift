@@ -7,7 +7,6 @@
 
 import Foundation
 import CoreLocation
-import ObjectMapper
 import CoreMotion
 public class SVTrackingManager: NSObject {
     public static let shareInstance = SVTrackingManager()
@@ -19,7 +18,7 @@ public class SVTrackingManager: NSObject {
     private var cacheParams: [[String : Any]] = []
     weak var delegate: OnResultListener? = nil
     // for timer tracking
-    var backgroundUpdateTask: UIBackgroundTaskIdentifier = UIBackgroundTaskIdentifier.invalid
+    var backgroundUpdateTask: UIBackgroundTaskIdentifier =  UIBackgroundTaskInvalid
     var bgtimer: Timer?
     var locationManager = CLLocationManager()
     var db: TrackingDB? = nil
@@ -157,7 +156,7 @@ public class SVTrackingManager: NSObject {
         var request = URLRequest(url: URL(string: "\(SVTrackingSession.shared.trackingURL ?? "")")!)
         request.httpMethod = "POST"
         request.httpBody = try? JSONSerialization.data(withJSONObject: locationData)
-        request.addValue("bearer "+(SVTrackingSession.shared.accessToken ?? ""), forHTTPHeaderField: "Authorization")
+        request.addValue(SVTrackingSession.shared.accessToken ?? "", forHTTPHeaderField: "Authorization")
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         let session = URLSession.shared
         let (data, _, _) = session.synchronousDataTask(urlrequest: request)
@@ -179,7 +178,7 @@ public class SVTrackingManager: NSObject {
                         var request2 = URLRequest(url: URL(string: "\(SVTrackingSession.shared.trackingURL ?? "")")!)
                         request2.httpMethod = "POST"
                         request2.httpBody = try? JSONSerialization.data(withJSONObject: locationData)
-                        request2.addValue("bearer "+(SVTrackingSession.shared.accessToken ?? ""), forHTTPHeaderField: "Authorization")
+                        request2.addValue(SVTrackingSession.shared.accessToken ?? "", forHTTPHeaderField: "Authorization")
                         request2.addValue("application/json", forHTTPHeaderField: "Content-Type")
                         let (data2, _, _) = session.synchronousDataTask(urlrequest: request2)
                         if (data2 != nil) {
@@ -363,7 +362,6 @@ public class SVTrackingManager: NSObject {
             refreshTokenFailed = true
         }
     }
-    
     public func configData(driverName: String, accessToken: String, trackingURL: String, backendURL: String, apiVersion: String, jobStatus : Int) {
         SVTrackingSession.shared.userName = driverName
         SVTrackingSession.shared.trackingURL = trackingURL
@@ -463,7 +461,7 @@ public class SVTrackingManager: NSObject {
             let ti = SVTrackingSession.shared.trackingFrequency! / 1000
             self.maxFail = 60 / ti * 10
             self.bgtimer = Timer.scheduledTimer(timeInterval: TimeInterval(ti), target: self, selector: #selector(self.bgtimer(_:)), userInfo: nil, repeats: true)
-            RunLoop.current.add(self.bgtimer!, forMode: RunLoop.Mode.default)
+            RunLoop.current.add(self.bgtimer!, forMode: RunLoop.Mode.defaultRunLoopMode)
             RunLoop.current.run()
             
             self.endBackgroundUpdateTask()
@@ -478,7 +476,7 @@ public class SVTrackingManager: NSObject {
     
     func endBackgroundUpdateTask() {
         UIApplication.shared.endBackgroundTask(self.backgroundUpdateTask)
-        self.backgroundUpdateTask = UIBackgroundTaskIdentifier.invalid
+        self.backgroundUpdateTask = UIBackgroundTaskInvalid
     }
 
     private override init() {
@@ -500,7 +498,7 @@ public class SVTrackingManager: NSObject {
             } catch {
             }
         }
-        var list = db?.getTrackingByUser(user: SVTrackingSession.shared.userName!) ?? []
+        let list = db?.getTrackingByUser(user: SVTrackingSession.shared.userName!) ?? []
         hasOfflineData = !list.isEmpty
     }
     

@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TCTracking'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'techcraft tracking library'
-
+  s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -34,11 +34,4 @@ Pod::Spec.new do |s|
   #   'TCTracking' => ['TCTracking/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'AlamofireObjectMapper'
-  s.dependency 'SwiftyJSON'
-  s.dependency 'Alamofire'
-  s.dependency 'ObjectMapper'
 end
