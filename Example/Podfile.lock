@@ -1,16 +1,21 @@
 PODS:
-  - TCTracking (0.1.0)
+  - TCTracking (0.3.0)
 
 DEPENDENCIES:
-  - TCTracking (from `../`)
+  - TCTracking (from `https://github.com/phutttc/TCTracking`)
 
 EXTERNAL SOURCES:
   TCTracking:
-    :path: "../"
+    :git: https://github.com/phutttc/TCTracking
+
+CHECKOUT OPTIONS:
+  TCTracking:
+    :commit: 3022c8c2bf4d186433d59a6ac103b3320fee2f5a
+    :git: https://github.com/phutttc/TCTracking
 
 SPEC CHECKSUMS:
-  TCTracking: 10732c88021b3bea0583a581ce8715a4595219b9
+  TCTracking: f7b7657a8673bef210c52f1a3e998d758fe31a23
 
-PODFILE CHECKSUM: dcb896d950ba7aa06e097198cd7d8c471bddc061
+PODFILE CHECKSUM: 606609af2d05baca39e7491bee17422b9c8c18d4
 
 COCOAPODS: 1.12.1

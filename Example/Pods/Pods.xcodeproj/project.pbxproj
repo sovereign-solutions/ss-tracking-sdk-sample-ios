@@ -6,34 +6,36 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		2239CC82EB03F60F9EF94A806265486F /* TCTracking */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1A0381FD4F5913215C6523A6D87A53D2 /* Build configuration list for PBXAggregateTarget "TCTracking" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TCTracking;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		30C85868A94528BC68EE4AE04C12BDB7 /* SVReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94490772DE53DF9BCDD086C2833F1C02 /* SVReachability.swift */; };
-		32B07F132B3F6F47813C28B5216244F1 /* TrackingDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E1180386253B5B2AE52ED654DF6351 /* TrackingDB.swift */; };
-		4DFC5347C833D733F4926A3A66871656 /* Pods-TCTracking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7FABA6031D5002B6832B960ECE4261 /* Pods-TCTracking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59B56BD9B22A84A8AEA9A2CE454DCCF7 /* SVString+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062C21756D57911E6DBA3CCC9728649 /* SVString+ext.swift */; };
-		5C9B1525B8EFCB6660A276C0D84DA480 /* SVTrackingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8D193206E900D4072A561F2BD2253 /* SVTrackingSession.swift */; };
+		4DFC5347C833D733F4926A3A66871656 /* Pods-TCTracking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E227BA851EA5FF79649227C56CA6EE /* Pods-TCTracking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		794E8AF98241449DA523CE6825CE3747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7B7AE42AB1CA15DE7ED83DE4C068CFC3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBAB79A5123C9DCFB52C550737965AB /* Logger.swift */; };
-		8DF921BBA596F1C3708A6CF43AB92ACC /* TCTracking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6AB9FED64D8C3CC50E873D272E3172D /* TCTracking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		984E0FC405553DBFDBD9057E1E623A7D /* Pods-TCTracking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB6E87A1B03BA6AD796F14712D7BEE8 /* Pods-TCTracking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D2C29D8355FB88283BFD22417B6A73C /* Pods-TCTracking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8395BB118986AF2824F5467C3294BA /* Pods-TCTracking_Tests-dummy.m */; };
+		984E0FC405553DBFDBD9057E1E623A7D /* Pods-TCTracking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89363F2EC12492DE6C7BAC5D328128FE /* Pods-TCTracking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2C29D8355FB88283BFD22417B6A73C /* Pods-TCTracking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA50BAC7E9ADC63D6AF960FEDEC42F3 /* Pods-TCTracking_Tests-dummy.m */; };
 		A68D20A840D6A9216B21ECBCF99E1099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B2F48C7A60E7082C1BD4DC1C8D272FCD /* SVTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80CEA24B47C4E74FAB367F5AE79CE3B /* SVTrackingManager.swift */; };
-		BBF3F1C9C4126CF2FA499E9F4C62B349 /* Pods-TCTracking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B82C0EA0A52027C672A9533A26420F /* Pods-TCTracking_Example-dummy.m */; };
-		DFD427FB379A78D1B95AD521766410E4 /* SVTrackingNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4FF9431E0B614303EB75B49BFEBE16 /* SVTrackingNetworkManager.swift */; };
-		E4433B11E91921611F4A8EF7FCCC0A41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F1DACC53151B2DF3D287E60DAF545A4C /* TCTracking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57947A563785D53DF8D4E1D260DDBF5E /* TCTracking-dummy.m */; };
+		BBF3F1C9C4126CF2FA499E9F4C62B349 /* Pods-TCTracking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9A271F4CFFE6B3660F047DBCB082D8 /* Pods-TCTracking_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5028AEC3EFB9DE959DE7C4EF76906055 /* PBXContainerItemProxy */ = {
+		A3AA8DE97CD721BE7B9FCEDDF7E898F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2239CC82EB03F60F9EF94A806265486F;
 			remoteInfo = TCTracking;
 		};
-		9118F05992BCFA93769BBB034340FAA1 /* PBXContainerItemProxy */ = {
+		E1EB0C9ED4F9B40B752B6CFD81042E40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -43,45 +45,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FF9E0BC07A472A4C236B0080A924E49 /* Pods-TCTracking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCTracking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2AB6E87A1B03BA6AD796F14712D7BEE8 /* Pods-TCTracking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCTracking_Example-umbrella.h"; sourceTree = "<group>"; };
-		2AD8D193206E900D4072A561F2BD2253 /* SVTrackingSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVTrackingSession.swift; path = TCTracking/Classes/SVTrackingSession.swift; sourceTree = "<group>"; };
+		0BA50BAC7E9ADC63D6AF960FEDEC42F3 /* Pods-TCTracking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCTracking_Tests-dummy.m"; sourceTree = "<group>"; };
+		1D7725548F4CFF82D4C142BDEEA0FC40 /* Pods-TCTracking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCTracking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2B4A67EE3EAAB06F4A93BDFC4DEB7C67 /* Pods-TCTracking_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TCTracking_Example"; path = Pods_TCTracking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BBAB79A5123C9DCFB52C550737965AB /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = TCTracking/Classes/Logger.swift; sourceTree = "<group>"; };
-		2BD389409B9B5C937AB2C6076A070504 /* Pods-TCTracking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCTracking_Example.modulemap"; sourceTree = "<group>"; };
-		3442ED510904749EAECBF8D39433C917 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		38E1180386253B5B2AE52ED654DF6351 /* TrackingDB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingDB.swift; path = TCTracking/Classes/TrackingDB.swift; sourceTree = "<group>"; };
-		3A65C19B373ECD0F5DF6D2B95CDC3B2F /* TCTracking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TCTracking; path = TCTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A9A116CD1DC9A4B4345268F5A7CFEFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		53F025F0A77F5B617BA1137E21B68088 /* Pods-TCTracking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCTracking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57947A563785D53DF8D4E1D260DDBF5E /* TCTracking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TCTracking-dummy.m"; sourceTree = "<group>"; };
-		6E7FABA6031D5002B6832B960ECE4261 /* Pods-TCTracking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCTracking_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7062C21756D57911E6DBA3CCC9728649 /* SVString+ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SVString+ext.swift"; path = "TCTracking/Classes/SVString+ext.swift"; sourceTree = "<group>"; };
+		3421EECE2D48F7FF410BAED9CF9634B0 /* Pods-TCTracking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCTracking_Tests-Info.plist"; sourceTree = "<group>"; };
+		415EC50EB320DAEC41C93E1E35E0E586 /* TCTracking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TCTracking.framework; path = TCTracking/TCTracking.framework; sourceTree = "<group>"; };
+		4C98C3295C18CB671C385FE58F309B4F /* Pods-TCTracking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCTracking_Example.modulemap"; sourceTree = "<group>"; };
+		5C7FD43CAC7F542D4361B7EF867C0F58 /* TCTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCTracking.debug.xcconfig; sourceTree = "<group>"; };
+		65CBB39198EC322C2ED41BA5F2208F9E /* Pods-TCTracking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCTracking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6716956B9E6B037685ED6FDAC45624D3 /* Pods-TCTracking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCTracking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7F4D865E415FE552F0CC088E5100207B /* Pods-TCTracking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TCTracking_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8A8395BB118986AF2824F5467C3294BA /* Pods-TCTracking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCTracking_Tests-dummy.m"; sourceTree = "<group>"; };
-		938EC91B887BA358620108D84A61E8E7 /* Pods-TCTracking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCTracking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		94490772DE53DF9BCDD086C2833F1C02 /* SVReachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVReachability.swift; path = TCTracking/Classes/SVReachability.swift; sourceTree = "<group>"; };
-		94C3E16CF17B3EB3FE14533F98FD76BE /* Pods-TCTracking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCTracking_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9A71ADB04CA57EAB3D2365D6E1CEB3D6 /* TCTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCTracking.debug.xcconfig; sourceTree = "<group>"; };
-		9AE0B00C3F8BD8752C7D53B110CC1C92 /* TCTracking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCTracking-prefix.pch"; sourceTree = "<group>"; };
-		9B32FD22D674C8879D25D900E5DC9A0F /* Pods-TCTracking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCTracking_Tests.modulemap"; sourceTree = "<group>"; };
+		89363F2EC12492DE6C7BAC5D328128FE /* Pods-TCTracking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCTracking_Example-umbrella.h"; sourceTree = "<group>"; };
+		9A1695451B497A8D865A47DC47E73D17 /* Pods-TCTracking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCTracking_Example-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6B82C0EA0A52027C672A9533A26420F /* Pods-TCTracking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCTracking_Example-dummy.m"; sourceTree = "<group>"; };
-		A7F8DDB51C8A794DB8B0E712EA05152D /* TCTracking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TCTracking-Info.plist"; sourceTree = "<group>"; };
-		AFFEE2329AA79E7A9C06CC58EA173508 /* Pods-TCTracking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCTracking_Example-Info.plist"; sourceTree = "<group>"; };
-		B6AB9FED64D8C3CC50E873D272E3172D /* TCTracking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TCTracking-umbrella.h"; sourceTree = "<group>"; };
-		CD35A951426DBDB3CFAE1B2FFFC39D53 /* Pods-TCTracking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCTracking_Tests-Info.plist"; sourceTree = "<group>"; };
-		E0CAB345E77074DCCA530AC3EAC94453 /* Pods-TCTracking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCTracking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5B1A59002DCFDDB1E20D5A244161559 /* TCTracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCTracking.release.xcconfig; sourceTree = "<group>"; };
+		B07E98BDF3A57E3D91677F0F1B37F64A /* Pods-TCTracking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCTracking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA1BF812EE3C2A3AA05FEF18A5C1B8A6 /* Pods-TCTracking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCTracking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D0E227BA851EA5FF79649227C56CA6EE /* Pods-TCTracking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCTracking_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DE9A271F4CFFE6B3660F047DBCB082D8 /* Pods-TCTracking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TCTracking_Example-dummy.m"; sourceTree = "<group>"; };
 		E41DB9A95FED40A593A1025BC7836EA6 /* Pods-TCTracking_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TCTracking_Tests"; path = Pods_TCTracking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE88EEAF6DB8009DB134CAE9F9841704 /* Pods-TCTracking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCTracking_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F1C3F2D142867482973C1C455FC4231F /* Pods-TCTracking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCTracking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7C5D37A4B7CEC6501592F2BF56A7767 /* Pods-TCTracking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCTracking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F80CEA24B47C4E74FAB367F5AE79CE3B /* SVTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVTrackingManager.swift; path = TCTracking/Classes/SVTrackingManager.swift; sourceTree = "<group>"; };
-		FA960D62F12557253F39A0CC6235CD68 /* TCTracking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TCTracking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FCC9A167C91082116F61676A79D14E3F /* TCTracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TCTracking.release.xcconfig; sourceTree = "<group>"; };
-		FF4FF9431E0B614303EB75B49BFEBE16 /* SVTrackingNetworkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVTrackingNetworkManager.swift; path = TCTracking/Classes/SVTrackingNetworkManager.swift; sourceTree = "<group>"; };
-		FFBE11EB151BA7359F2887BC4CA7E48D /* TCTracking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TCTracking.modulemap; sourceTree = "<group>"; };
+		E67551DC332F3DAF0652C60051EFDC12 /* Pods-TCTracking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TCTracking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E72C088930CAA280B8CAB62D52A1A5CF /* Pods-TCTracking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TCTracking_Tests.modulemap"; sourceTree = "<group>"; };
+		F7948A2ED3119C7D200EF965BEAD08A5 /* Pods-TCTracking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TCTracking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCA52FEEB58E07240B7965AB7E893D27 /* Pods-TCTracking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TCTracking_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,24 +87,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF1FCAB16107F580B2CE5D8709CA4578 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4433B11E91921611F4A8EF7FCCC0A41 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DE667AB57F5A09B801C0B31FE013843 /* Targets Support Files */ = {
+		1BAF76F03B86E66CAEECD3B5F5A566F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7F1B1B1E3A0B6782124262950ED0C01D /* Pods-TCTracking_Example */,
-				61511FAD6DA0368D98023812EB3743D1 /* Pods-TCTracking_Tests */,
+				415EC50EB320DAEC41C93E1E35E0E586 /* TCTracking.framework */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CB181CDDFED9B779D87882D12713A2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C7FD43CAC7F542D4361B7EF867C0F58 /* TCTracking.debug.xcconfig */,
+				A5B1A59002DCFDDB1E20D5A244161559 /* TCTracking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TCTracking";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -129,75 +116,63 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		61511FAD6DA0368D98023812EB3743D1 /* Pods-TCTracking_Tests */ = {
+		60BAAAA3128CD1D9BDB88A4A0700E14A /* Pods-TCTracking_Example */ = {
 			isa = PBXGroup;
 			children = (
-				9B32FD22D674C8879D25D900E5DC9A0F /* Pods-TCTracking_Tests.modulemap */,
-				53F025F0A77F5B617BA1137E21B68088 /* Pods-TCTracking_Tests-acknowledgements.markdown */,
-				E0CAB345E77074DCCA530AC3EAC94453 /* Pods-TCTracking_Tests-acknowledgements.plist */,
-				8A8395BB118986AF2824F5467C3294BA /* Pods-TCTracking_Tests-dummy.m */,
-				CD35A951426DBDB3CFAE1B2FFFC39D53 /* Pods-TCTracking_Tests-Info.plist */,
-				6E7FABA6031D5002B6832B960ECE4261 /* Pods-TCTracking_Tests-umbrella.h */,
-				938EC91B887BA358620108D84A61E8E7 /* Pods-TCTracking_Tests.debug.xcconfig */,
-				0FF9E0BC07A472A4C236B0080A924E49 /* Pods-TCTracking_Tests.release.xcconfig */,
-			);
-			name = "Pods-TCTracking_Tests";
-			path = "Target Support Files/Pods-TCTracking_Tests";
-			sourceTree = "<group>";
-		};
-		7F1B1B1E3A0B6782124262950ED0C01D /* Pods-TCTracking_Example */ = {
-			isa = PBXGroup;
-			children = (
-				2BD389409B9B5C937AB2C6076A070504 /* Pods-TCTracking_Example.modulemap */,
-				F1C3F2D142867482973C1C455FC4231F /* Pods-TCTracking_Example-acknowledgements.markdown */,
-				F7C5D37A4B7CEC6501592F2BF56A7767 /* Pods-TCTracking_Example-acknowledgements.plist */,
-				A6B82C0EA0A52027C672A9533A26420F /* Pods-TCTracking_Example-dummy.m */,
-				7F4D865E415FE552F0CC088E5100207B /* Pods-TCTracking_Example-frameworks.sh */,
-				AFFEE2329AA79E7A9C06CC58EA173508 /* Pods-TCTracking_Example-Info.plist */,
-				2AB6E87A1B03BA6AD796F14712D7BEE8 /* Pods-TCTracking_Example-umbrella.h */,
-				94C3E16CF17B3EB3FE14533F98FD76BE /* Pods-TCTracking_Example.debug.xcconfig */,
-				EE88EEAF6DB8009DB134CAE9F9841704 /* Pods-TCTracking_Example.release.xcconfig */,
+				4C98C3295C18CB671C385FE58F309B4F /* Pods-TCTracking_Example.modulemap */,
+				1D7725548F4CFF82D4C142BDEEA0FC40 /* Pods-TCTracking_Example-acknowledgements.markdown */,
+				B07E98BDF3A57E3D91677F0F1B37F64A /* Pods-TCTracking_Example-acknowledgements.plist */,
+				DE9A271F4CFFE6B3660F047DBCB082D8 /* Pods-TCTracking_Example-dummy.m */,
+				9A1695451B497A8D865A47DC47E73D17 /* Pods-TCTracking_Example-Info.plist */,
+				89363F2EC12492DE6C7BAC5D328128FE /* Pods-TCTracking_Example-umbrella.h */,
+				65CBB39198EC322C2ED41BA5F2208F9E /* Pods-TCTracking_Example.debug.xcconfig */,
+				FCA52FEEB58E07240B7965AB7E893D27 /* Pods-TCTracking_Example.release.xcconfig */,
 			);
 			name = "Pods-TCTracking_Example";
 			path = "Target Support Files/Pods-TCTracking_Example";
 			sourceTree = "<group>";
 		};
-		90F84EB492BC8092725BA9AAE520D1A9 /* Pod */ = {
+		7846238CDABBD6D2859981DC0B6C5285 /* Pods-TCTracking_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4A9A116CD1DC9A4B4345268F5A7CFEFE /* LICENSE */,
-				3442ED510904749EAECBF8D39433C917 /* README.md */,
-				FA960D62F12557253F39A0CC6235CD68 /* TCTracking.podspec */,
+				E72C088930CAA280B8CAB62D52A1A5CF /* Pods-TCTracking_Tests.modulemap */,
+				F7948A2ED3119C7D200EF965BEAD08A5 /* Pods-TCTracking_Tests-acknowledgements.markdown */,
+				E67551DC332F3DAF0652C60051EFDC12 /* Pods-TCTracking_Tests-acknowledgements.plist */,
+				0BA50BAC7E9ADC63D6AF960FEDEC42F3 /* Pods-TCTracking_Tests-dummy.m */,
+				3421EECE2D48F7FF410BAED9CF9634B0 /* Pods-TCTracking_Tests-Info.plist */,
+				D0E227BA851EA5FF79649227C56CA6EE /* Pods-TCTracking_Tests-umbrella.h */,
+				6716956B9E6B037685ED6FDAC45624D3 /* Pods-TCTracking_Tests.debug.xcconfig */,
+				BA1BF812EE3C2A3AA05FEF18A5C1B8A6 /* Pods-TCTracking_Tests.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Pods-TCTracking_Tests";
+			path = "Target Support Files/Pods-TCTracking_Tests";
 			sourceTree = "<group>";
 		};
-		A9C7AD84C56D315782D0642420D30845 /* Development Pods */ = {
+		9BB40AA811C99057AAE1DDBE044AEDF1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F5E75A8BEB4A23F85F7FA1122944740F /* TCTracking */,
+				60BAAAA3128CD1D9BDB88A4A0700E14A /* Pods-TCTracking_Example */,
+				7846238CDABBD6D2859981DC0B6C5285 /* Pods-TCTracking_Tests */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C453A944152FF5BE8555BEC820D07140 /* Products */ = {
+		C3394246B452150D5C9E83C34A36F315 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2B4A67EE3EAAB06F4A93BDFC4DEB7C67 /* Pods-TCTracking_Example */,
-				E41DB9A95FED40A593A1025BC7836EA6 /* Pods-TCTracking_Tests */,
-				3A65C19B373ECD0F5DF6D2B95CDC3B2F /* TCTracking */,
+				F7C8266D72B8577DB20B5E5BBBCF2502 /* TCTracking */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A9C7AD84C56D315782D0642420D30845 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C453A944152FF5BE8555BEC820D07140 /* Products */,
-				4DE667AB57F5A09B801C0B31FE013843 /* Targets Support Files */,
+				C3394246B452150D5C9E83C34A36F315 /* Pods */,
+				D6756F74B2638C473ADDEEB51B253CB0 /* Products */,
+				9BB40AA811C99057AAE1DDBE044AEDF1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,36 +184,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8758D0D51C495A625B410DFBABB22DB /* Support Files */ = {
+		D6756F74B2638C473ADDEEB51B253CB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFBE11EB151BA7359F2887BC4CA7E48D /* TCTracking.modulemap */,
-				57947A563785D53DF8D4E1D260DDBF5E /* TCTracking-dummy.m */,
-				A7F8DDB51C8A794DB8B0E712EA05152D /* TCTracking-Info.plist */,
-				9AE0B00C3F8BD8752C7D53B110CC1C92 /* TCTracking-prefix.pch */,
-				B6AB9FED64D8C3CC50E873D272E3172D /* TCTracking-umbrella.h */,
-				9A71ADB04CA57EAB3D2365D6E1CEB3D6 /* TCTracking.debug.xcconfig */,
-				FCC9A167C91082116F61676A79D14E3F /* TCTracking.release.xcconfig */,
+				2B4A67EE3EAAB06F4A93BDFC4DEB7C67 /* Pods-TCTracking_Example */,
+				E41DB9A95FED40A593A1025BC7836EA6 /* Pods-TCTracking_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TCTracking";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		F5E75A8BEB4A23F85F7FA1122944740F /* TCTracking */ = {
+		F7C8266D72B8577DB20B5E5BBBCF2502 /* TCTracking */ = {
 			isa = PBXGroup;
 			children = (
-				2BBAB79A5123C9DCFB52C550737965AB /* Logger.swift */,
-				94490772DE53DF9BCDD086C2833F1C02 /* SVReachability.swift */,
-				7062C21756D57911E6DBA3CCC9728649 /* SVString+ext.swift */,
-				F80CEA24B47C4E74FAB367F5AE79CE3B /* SVTrackingManager.swift */,
-				FF4FF9431E0B614303EB75B49BFEBE16 /* SVTrackingNetworkManager.swift */,
-				2AD8D193206E900D4072A561F2BD2253 /* SVTrackingSession.swift */,
-				38E1180386253B5B2AE52ED654DF6351 /* TrackingDB.swift */,
-				90F84EB492BC8092725BA9AAE520D1A9 /* Pod */,
-				D8758D0D51C495A625B410DFBABB22DB /* Support Files */,
+				1BAF76F03B86E66CAEECD3B5F5A566F6 /* Frameworks */,
+				2CB181CDDFED9B779D87882D12713A2A /* Support Files */,
 			);
 			name = TCTracking;
-			path = ../..;
+			path = TCTracking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,14 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DFC5347C833D733F4926A3A66871656 /* Pods-TCTracking_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91D880CA9D6B6F8E290AC9C8250420CD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8DF921BBA596F1C3708A6CF43AB92ACC /* TCTracking-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,24 +225,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2239CC82EB03F60F9EF94A806265486F /* TCTracking */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3369B39F112CCF6807D9D8073EE51673 /* Build configuration list for PBXNativeTarget "TCTracking" */;
-			buildPhases = (
-				91D880CA9D6B6F8E290AC9C8250420CD /* Headers */,
-				91667D5169FABE21511328F954879201 /* Sources */,
-				EF1FCAB16107F580B2CE5D8709CA4578 /* Frameworks */,
-				253DA82E9B3A30A031A572AC198D6955 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TCTracking;
-			productName = TCTracking;
-			productReference = 3A65C19B373ECD0F5DF6D2B95CDC3B2F /* TCTracking */;
-			productType = "com.apple.product-type.framework";
-		};
 		7D2CD31621EF4E8BF5F7BC1735182BE6 /* Pods-TCTracking_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C5DB475ECC568A49DD797DA89A83F84 /* Build configuration list for PBXNativeTarget "Pods-TCTracking_Tests" */;
@@ -301,7 +237,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7C380274852021F1E2B4CD345C3405D2 /* PBXTargetDependency */,
+				90759C9C0E5EAC93E58410367F4A2F3B /* PBXTargetDependency */,
 			);
 			name = "Pods-TCTracking_Tests";
 			productName = Pods_TCTracking_Tests;
@@ -320,7 +256,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				487470EA170F667410D605E1A88F1D36 /* PBXTargetDependency */,
+				EC8EDA3F6A8770EC4B3C3A9BD43AB4D8 /* PBXTargetDependency */,
 			);
 			name = "Pods-TCTracking_Example";
 			productName = Pods_TCTracking_Example;
@@ -345,7 +281,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C453A944152FF5BE8555BEC820D07140 /* Products */;
+			productRefGroup = D6756F74B2638C473ADDEEB51B253CB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -358,13 +294,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		1941DD92E5774C87B9530C469F898B92 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		253DA82E9B3A30A031A572AC198D6955 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,77 +326,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91667D5169FABE21511328F954879201 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B7AE42AB1CA15DE7ED83DE4C068CFC3 /* Logger.swift in Sources */,
-				30C85868A94528BC68EE4AE04C12BDB7 /* SVReachability.swift in Sources */,
-				59B56BD9B22A84A8AEA9A2CE454DCCF7 /* SVString+ext.swift in Sources */,
-				B2F48C7A60E7082C1BD4DC1C8D272FCD /* SVTrackingManager.swift in Sources */,
-				DFD427FB379A78D1B95AD521766410E4 /* SVTrackingNetworkManager.swift in Sources */,
-				5C9B1525B8EFCB6660A276C0D84DA480 /* SVTrackingSession.swift in Sources */,
-				F1DACC53151B2DF3D287E60DAF545A4C /* TCTracking-dummy.m in Sources */,
-				32B07F132B3F6F47813C28B5216244F1 /* TrackingDB.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		487470EA170F667410D605E1A88F1D36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TCTracking;
-			target = 2239CC82EB03F60F9EF94A806265486F /* TCTracking */;
-			targetProxy = 5028AEC3EFB9DE959DE7C4EF76906055 /* PBXContainerItemProxy */;
-		};
-		7C380274852021F1E2B4CD345C3405D2 /* PBXTargetDependency */ = {
+		90759C9C0E5EAC93E58410367F4A2F3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TCTracking_Example";
 			target = EE0226F8CE365AAE7FBEC2EB29C78292 /* Pods-TCTracking_Example */;
-			targetProxy = 9118F05992BCFA93769BBB034340FAA1 /* PBXContainerItemProxy */;
+			targetProxy = E1EB0C9ED4F9B40B752B6CFD81042E40 /* PBXContainerItemProxy */;
+		};
+		EC8EDA3F6A8770EC4B3C3A9BD43AB4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TCTracking;
+			target = 2239CC82EB03F60F9EF94A806265486F /* TCTracking */;
+			targetProxy = A3AA8DE97CD721BE7B9FCEDDF7E898F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B00FFB238CE14A2F7DA16069FD5104B /* Debug */ = {
+		44D25A4D4A16EE4BEED351CD7DA72F58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A71ADB04CA57EAB3D2365D6E1CEB3D6 /* TCTracking.debug.xcconfig */;
+			baseConfigurationReference = A5B1A59002DCFDDB1E20D5A244161559 /* TCTracking.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TCTracking/TCTracking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TCTracking/TCTracking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/TCTracking/TCTracking.modulemap";
-				PRODUCT_MODULE_NAME = TCTracking;
-				PRODUCT_NAME = TCTracking;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		861DD43246BC317438C83D45C04F5B4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FF9E0BC07A472A4C236B0080A924E49 /* Pods-TCTracking_Tests.release.xcconfig */;
+			baseConfigurationReference = BA1BF812EE3C2A3AA05FEF18A5C1B8A6 /* Pods-TCTracking_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -565,9 +462,26 @@
 			};
 			name = Release;
 		};
+		91A05199F6C005C16A31D9CA5034089B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7FD43CAC7F542D4361B7EF867C0F58 /* TCTracking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		9CA2C020BCE302EA1B4A0AE657FC9FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE88EEAF6DB8009DB134CAE9F9841704 /* Pods-TCTracking_Example.release.xcconfig */;
+			baseConfigurationReference = FCA52FEEB58E07240B7965AB7E893D27 /* Pods-TCTracking_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -605,7 +519,7 @@
 		};
 		A2184D34637863144EF79583877D77A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94C3E16CF17B3EB3FE14533F98FD76BE /* Pods-TCTracking_Example.debug.xcconfig */;
+			baseConfigurationReference = 65CBB39198EC322C2ED41BA5F2208F9E /* Pods-TCTracking_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -708,7 +622,7 @@
 		};
 		D2D505365963667347E667EB466DFD28 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 938EC91B887BA358620108D84A61E8E7 /* Pods-TCTracking_Tests.debug.xcconfig */;
+			baseConfigurationReference = 6716956B9E6B037685ED6FDAC45624D3 /* Pods-TCTracking_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -743,59 +657,23 @@
 			};
 			name = Debug;
 		};
-		E3A2E9DCDA70AC69D67C938ECC2637ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCC9A167C91082116F61676A79D14E3F /* TCTracking.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TCTracking/TCTracking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TCTracking/TCTracking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TCTracking/TCTracking.modulemap";
-				PRODUCT_MODULE_NAME = TCTracking;
-				PRODUCT_NAME = TCTracking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A0381FD4F5913215C6523A6D87A53D2 /* Build configuration list for PBXAggregateTarget "TCTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A05199F6C005C16A31D9CA5034089B /* Debug */,
+				44D25A4D4A16EE4BEED351CD7DA72F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		248405B3CA37325230E424B4D2DDE03A /* Build configuration list for PBXNativeTarget "Pods-TCTracking_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2184D34637863144EF79583877D77A7 /* Debug */,
 				9CA2C020BCE302EA1B4A0AE657FC9FD2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3369B39F112CCF6807D9D8073EE51673 /* Build configuration list for PBXNativeTarget "TCTracking" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B00FFB238CE14A2F7DA16069FD5104B /* Debug */,
-				E3A2E9DCDA70AC69D67C938ECC2637ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

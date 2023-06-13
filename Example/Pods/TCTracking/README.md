@@ -12,7 +12,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Quick start
 
 run the example project
-- In your info.plist add these keys and descriptions: NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSLocationAlwaysUsageDescription
+- In your info.plist add these keys and descriptions: NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSLocationAlwaysUsageDescription, NSMotionUsageDescription
 - driverName: user's name
 - accessToken: input access token 
 - apiVersion: api versin form APi
@@ -44,7 +44,7 @@ TCTracking is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'TCTracking', :git => 'https://github.com/phutttc/TCTracking'
+pod 'TCTracking', 'https://github.com/phutttc/TCTracking'
 ```
 
 ## Author

@@ -4,3 +4,8 @@ framework module TCTracking {
   export *
   module * { export * }
 }
+
+module TCTracking.Swift {
+  header "TCTracking-Swift.h"
+  requires objc
+}
