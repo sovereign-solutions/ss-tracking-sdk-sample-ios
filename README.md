@@ -12,19 +12,20 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Quick start
 
 run the example project
+
 - In your info.plist add these keys and descriptions: NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSLocationAlwaysUsageDescription
 - driverName: user's name
-- accessToken: input access token 
+- accessToken: input access token
 - apiVersion: api versin form APi
 - trackingURL: URL domain for api version < 2.0.0
 - backendURL: URL tracking version >= 2.0.0
 - use the LoginUrl with your username and password to get the `token`, `refreshToken`
-        curl --location 'https://accounts.skedulomatic.com/oauth/token' \
-        --header 'Content-Type: application/x-www-form-urlencoded' \
-        --data-urlencode 'grant_type=password' \
-        --data-urlencode 'username=<username>' \
-        --data-urlencode 'password=<password>
-        
+  curl --location 'https://accounts.skedulomatic.com/oauth/token' \
+   --header 'Content-Type: application/x-www-form-urlencoded' \
+   --data-urlencode 'grant_type=password' \
+   --data-urlencode 'username=<username>' \
+   --data-urlencode 'password=<password>
+
         let user = "thanh13"
         let token = "bearer f0ue9Ce6swJXku2IH8h_....."
         let refreshToken = "rvFTI9O9oXggF6FeqvIxbWaeno57aax....."
@@ -32,6 +33,13 @@ run the example project
         SVTrackingManager.shareInstance.setTrackingFrequency(miliseconds: 10000)
         SVTrackingManager.shareInstance.setUseMotionSensor(enable: true)
         SVTrackingManager.shareInstance.setAuthenInfo(url:"https://accounts.skedulomatic.com/oauth/token", refreshToken: refreshToken, expiresIn:String(1653625868533))
+        //set TrackerId
+        let deviceId = UIDevice.current.identifierForVendor?.uuidString
+        SVTrackingManager.shareInstance.setDeviceId("\(deviceId)@\(user)")
+        //use this to change device status (1: active, 2: idle)
+        //SVTrackingManager.shareInstance.setTrackingStatus(2)
+
+        //start tracking
         SVTrackingManager.shareInstance.enableService()
 
 ## Requirements

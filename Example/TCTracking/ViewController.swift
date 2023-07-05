@@ -29,6 +29,12 @@ class ViewController: UIViewController {
         SVTrackingManager.shareInstance.setTrackingFrequency(miliseconds: 10000)
         SVTrackingManager.shareInstance.setAuthenInfo(url:"https://accounts.skedulomatic.com/oauth/token", refreshToken: refreshToken, expiresIn:String(expiresIn))
         SVTrackingManager.shareInstance.setUseMotionSensor(enable: true)
+        //set TrackerId
+        let deviceId = UIDevice.current.identifierForVendor?.uuidString
+        SVTrackingManager.shareInstance.setDeviceId("\(deviceId)@\(user)")
+        //set device status (1: active, 2: idle)
+        //SVTrackingManager.shareInstance.setTrackingStatus(2)
+
         SVTrackingManager.shareInstance.enableService()
     }
 
