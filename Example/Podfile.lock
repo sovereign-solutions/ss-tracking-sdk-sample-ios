@@ -1,5 +1,5 @@
 PODS:
-  - TCTracking (0.3.0)
+  - TCTracking (0.4.0)
 
 DEPENDENCIES:
   - TCTracking (from `https://github.com/phutttc/TCTracking`)
@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TCTracking:
-    :commit: 3022c8c2bf4d186433d59a6ac103b3320fee2f5a
+    :commit: a66333dc1a87576e2c4eb9ec8745d88ffc8a5481
     :git: https://github.com/phutttc/TCTracking
 
 SPEC CHECKSUMS:
-  TCTracking: f7b7657a8673bef210c52f1a3e998d758fe31a23
+  TCTracking: 9e5b551e32c35959755d5756df037be68ec0c7ab
 
 PODFILE CHECKSUM: 606609af2d05baca39e7491bee17422b9c8c18d4
 

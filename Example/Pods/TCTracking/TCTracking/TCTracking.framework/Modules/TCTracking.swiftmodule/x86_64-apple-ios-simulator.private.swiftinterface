@@ -1,0 +1,63 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 effective-4.1.50 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -Onone -module-name TCTracking
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
+import CoreMotion
+import Foundation
+import SQLite3
+import Swift
+import SystemConfiguration
+@_exported import TCTracking
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class Logger {
+  public class func write(text: Swift.String, to fileNamed: Swift.String = "LocationLogs", folder: Swift.String = "LocationData")
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SVReachability {
+  public class func isConnectedToNetwork() -> Swift.Bool
+  @objc deinit
+}
+extension Swift.String {
+  public static func == (lhs: Swift.String, rhs: Swift.String) -> Swift.Bool
+  public static func < (lhs: Swift.String, rhs: Swift.String) -> Swift.Bool
+  public static func <= (lhs: Swift.String, rhs: Swift.String) -> Swift.Bool
+  public static func > (lhs: Swift.String, rhs: Swift.String) -> Swift.Bool
+  public static func >= (lhs: Swift.String, rhs: Swift.String) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SVTrackingManager : ObjectiveC.NSObject {
+  public static let shareInstance: TCTracking.SVTrackingManager
+  public func setListener(listener: any TCTracking.OnResultListener)
+  public func configData(driverName: Swift.String, accessToken: Swift.String, trackingURL: Swift.String, backendURL: Swift.String, apiVersion: Swift.String, jobStatus: Swift.Int)
+  public func setDeviceId(id: Swift.String)
+  public func isTracking() -> Swift.Bool
+  public func enableService()
+  public func disableService()
+  public func setTrackingStatus(jobStatus: ObjectiveC.NSInteger)
+  public func setTrackingFrequency(miliseconds: Swift.Int)
+  public func setAuthenInfo(url: Swift.String, refreshToken: Swift.String, expiresIn: Swift.String)
+  public func setUseMotionSensor(enable: Swift.Bool)
+  @objc deinit
+}
+extension TCTracking.SVTrackingManager : CoreLocation.CLLocationManagerDelegate {
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+}
+@objc public protocol OnResultListener {
+  @objc func onResult(result: Any)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SVTrackingNetworkManager : ObjectiveC.NSObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SVTrackingSessionConstant {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SVTrackingSession : ObjectiveC.NSObject {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class TrackingDB : ObjectiveC.NSObject {
+  @objc deinit
+  public func insertMulti(params: [[Swift.String : Any]])
+}

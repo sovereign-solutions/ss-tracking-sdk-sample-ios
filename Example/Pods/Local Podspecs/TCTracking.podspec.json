@@ -1,6 +1,6 @@
 {
   "name": "TCTracking",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "summary": "techcraft tracking library",
   "swift_versions": "4.0",
   "description": "techcraft tracking library use for sending gps data to vdms tracking service.",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/phutttc/TCTracking.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "11.0"

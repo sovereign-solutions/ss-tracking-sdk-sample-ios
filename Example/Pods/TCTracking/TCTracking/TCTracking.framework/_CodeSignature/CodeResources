@@ -14,23 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WGOnZjz5o+cB057rh+gpC25oqcs=
+		NiA7EguKcV2g7+jdy3kvIUtm4Nc=
 		</data>
 		<key>Modules/TCTracking.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		xerD5+3bZ16iOWzmDnRuSdqgvcg=
+		fvb2qGe/uB0gfESgVbHx/p1r3jQ=
 		</data>
 		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		0VB0PXUhYeBesQZwvYmnqq6UxsA=
+		</data>
+		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		SIgLsvF9LWw30na/ytFT8PkAoYI=
 		</data>
 		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		CphsKRWUxR+g3ppVqAKIsaq+j7E=
 		</data>
+		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		SIgLsvF9LWw30na/ytFT8PkAoYI=
+		</data>
 		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		r4+ZraLRWU1z9uZ1GEP+gQV68vs=
+		pB0il+0c9dF7qn+wtiMjyvJ3HJI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +49,6 @@
 	<dict>
 		<key>Headers/TCTracking-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			e4Xr4F/0teShxKL5C3IXipYrfQ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			CVH+pwBwz0P6w6vWFUaJ8OZA/Z9Mq6sctomO0JPExVY=
@@ -52,10 +56,6 @@
 		</dict>
 		<key>Headers/TCTracking-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JA7X+4YMXrluim5N8q66sLjy8f4=
-			</data>
 			<key>hash2</key>
 			<data>
 			H2NHSOdzslf9aMJnPa5nub08HJYsQa+T13oNWmIyAEk=
@@ -63,54 +63,48 @@
 		</dict>
 		<key>Modules/TCTracking.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xerD5+3bZ16iOWzmDnRuSdqgvcg=
-			</data>
 			<key>hash2</key>
 			<data>
-			sy+Ka4XH3wa6ONTcSZXOpK7oGZnbnN3hIh8JWWM24no=
+			xjC7+96eEKwK2fUCk6/hUqGdKjynY2vH2ubeMCtiSt4=
 			</data>
 		</dict>
 		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FSPnLbho3G+LL9smI3XgVOqBIQ4=
-			</data>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			+C3yiK+jLnC7aqm3PweUk/ESzqDhAPbQXEjrO/m8eX4=
+			</data>
+		</dict>
+		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1rLBhrEkqKwgf6TWWZlBM4MPPXEfP2VCF1ZKx/4Mohc=
 			</data>
 		</dict>
 		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CphsKRWUxR+g3ppVqAKIsaq+j7E=
-			</data>
 			<key>hash2</key>
 			<data>
 			Eji8UsjpVDZBvOgK+q20EDBGOAqgGYJC44ybwYw1QDk=
 			</data>
 		</dict>
-		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r4+ZraLRWU1z9uZ1GEP+gQV68vs=
-			</data>
 			<key>hash2</key>
 			<data>
-			o+dJbJwsg7tQNPfcQmnuVoVXg7gN+b/56T11BHpfmjU=
+			1rLBhrEkqKwgf6TWWZlBM4MPPXEfP2VCF1ZKx/4Mohc=
+			</data>
+		</dict>
+		<key>Modules/TCTracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q3VLlzqssG9v/7ab45a77tIOPInoZAQLTi9H7gpOqI8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SJfvHw5rAlI8ZoZ5qYtxE8U9ui4=
-			</data>
 			<key>hash2</key>
 			<data>
 			KYxD0SZYNyiMDn6/s4qkdwUULw8r7Ni9dWuln4ndkm8=

@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let user = "thanh13"
+        
         let token = "bearer f0ue9Ce6swJXku2IH8h_....."
         let refreshToken = "rvFTI9O9oXggF6FeqvIxbWaeno57aax....."
 //        let expiresIn = expires_in + Date().timeIntervalSince1970
@@ -30,8 +31,8 @@ class ViewController: UIViewController {
         SVTrackingManager.shareInstance.setAuthenInfo(url:"https://accounts.skedulomatic.com/oauth/token", refreshToken: refreshToken, expiresIn:String(expiresIn))
         SVTrackingManager.shareInstance.setUseMotionSensor(enable: true)
         //set TrackerId
-        let deviceId = UIDevice.current.identifierForVendor?.uuidString
-        SVTrackingManager.shareInstance.setDeviceId("\(deviceId)@\(user)")
+        let deviceId = UIDevice.current.identifierForVendor?.uuidString ?? "" as String
+        SVTrackingManager.shareInstance.setDeviceId(id:"\(deviceId)@\(user)")
         //set device status (1: active, 2: idle)
         //SVTrackingManager.shareInstance.setTrackingStatus(2)
 
