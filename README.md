@@ -16,9 +16,8 @@ run the example project
 - In your info.plist add these keys and descriptions: NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSLocationAlwaysUsageDescription
 - driverName: user's name
 - accessToken: input access token
-- apiVersion: api versin form APi
-- trackingURL: URL domain for api version < 2.0.0
-- backendURL: URL tracking version >= 2.0.0
+- trackingURL: tracking api url
+- backendURL: backend url
 - use the LoginUrl with your username and password to get the `token`, `refreshToken`
   curl --location 'https://accounts.skedulomatic.com/oauth/token' \
    --header 'Content-Type: application/x-www-form-urlencoded' \
