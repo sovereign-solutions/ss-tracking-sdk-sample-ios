@@ -26,15 +26,15 @@ run the example project
    --data-urlencode 'username=<username>' \
    --data-urlencode 'password=<password>
 
-        let user = "thanh13"
+        let user = "sales_testing_2"
         let token = "bearer f0ue9Ce6swJXku2IH8h_....."
         let refreshToken = "rvFTI9O9oXggF6FeqvIxbWaeno57aax....."
-        SVTrackingManager.shareInstance.configData(driverName: "thanh13", accessToken: token, trackingURL: "https://testing.skedulomatic.com/api/app-base/vdms-tracking/push", backendURL: "https://testing.skedulomatic.com", apiVersion: "2.7.2", jobStatus: 2)
+        SVTrackingManager.shareInstance.config(driverName: user, accessToken: token, trackingURL: "https://sales.grow-matic.com/api/app-base/vdms-tracking/push", backendURL: "https://sales.grow-matic.com", jobStatus: 2)
         SVTrackingManager.shareInstance.setTrackingFrequency(miliseconds: 10000)
         SVTrackingManager.shareInstance.setUseMotionSensor(enable: true)
         SVTrackingManager.shareInstance.setAuthenInfo(url:"https://accounts.skedulomatic.com/oauth/token", refreshToken: refreshToken, expiresIn:String(1653625868533))
         //set TrackerId
-        let deviceId = UIDevice.current.identifierForVendor?.uuidString
+        let deviceId = UIDevice.current.identifierForVendor?.uuidString ?? "" as String
         SVTrackingManager.shareInstance.setDeviceId("\(deviceId)@\(user)")
         //use this to change device status (1: active, 2: idle)
         //SVTrackingManager.shareInstance.setTrackingStatus(2)
