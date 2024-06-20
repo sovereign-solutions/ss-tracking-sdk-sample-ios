@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 run the example project
 
-- In your info.plist add these keys and descriptions: NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSLocationAlwaysUsageDescription
+- In your info.plist add `UIBackgroundModes` `location` and these keys and descriptions: NSLocationWhenInUseUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSLocationAlwaysUsageDescription,
 - driverName: user's name
 - accessToken: input access token
 - trackingURL: tracking api url
@@ -25,6 +25,8 @@ run the example project
    --data-urlencode 'username=<username>' \
    --data-urlencode 'password=<password>
 
+        ...
+        // init tracking
         let user = "sales_testing_2"
         let token = "bearer f0ue9Ce6swJXku2IH8h_....."
         let refreshToken = "rvFTI9O9oXggF6FeqvIxbWaeno57aax....."
@@ -37,9 +39,17 @@ run the example project
         SVTrackingManager.shareInstance.setDeviceId("\(deviceId)@\(user)")
         //use this to change device status (1: active, 2: idle)
         //SVTrackingManager.shareInstance.setTrackingStatus(2)
-
+        ...
+  
+        ...
         //start tracking
         SVTrackingManager.shareInstance.enableService()
+        ...
+  
+        ...
+        //stop tracking
+        SVTrackingManager.shareInstance.disableService()
+        ...
 
 ## Requirements
 
